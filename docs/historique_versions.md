@@ -41,5 +41,16 @@
 - Brainstorming sur les modules firmware et site web.
 
 ---
+---
+
+## 📌 Modification #002
+- 🗓️ Date : 2025-04-16
+- 👤 Auteur : DB.NetworkEngineer
+- 🏷️ Type : Sécurité / Validation SSH
+- 💬 Description :
+    Vérification des clés SSH.
+    Contrôle des permissions (~/.ssh 700, id_ed25519 600).
+    Test de connexion : ssh -T git@github.com
+    Conseils : rotation des clés tous les 90 jours, sauvegarde chiffrée des clés.
 
 
